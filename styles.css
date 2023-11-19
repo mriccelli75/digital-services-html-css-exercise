@@ -164,7 +164,7 @@ nav {
     cursor: pointer;
     background-image: none;
     border: 1px solid transparent;
-    padding: 14px 25px 10px;
+    padding: 15px 25px 15px;
     font-size: 14px;
     line-height: 1.42857143;
     border-radius: 4px;
@@ -196,6 +196,10 @@ nav {
   background: var(--brand-black);
   color: var(--brand-blue)
 }
+.btn-primary:focus {
+  background: var(--brand-black);
+  color: var(--brand-blue)
+}
 .btn-secondary {
   font-family: 'Oswald', sans-serif;
   font-style: italic;
@@ -210,6 +214,10 @@ nav {
   text-decoration: underline;
 }
 .btn-secondary:hover {
+  color: var(--brand-black);
+  background-color: var(--brand-blue);
+}
+.btn-secondary:focus {
   color: var(--brand-black);
   background-color: var(--brand-blue);
 }
